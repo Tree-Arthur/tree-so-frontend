@@ -2,7 +2,7 @@ import axios from "axios";
 //拦截器请求后端地址
 const instance = axios.create({
   baseURL: "http://localhost:8101/api/",
-  timeout: 1000,
+  timeout: 100000,
   headers: {},
 });
 

@@ -1,7 +1,7 @@
 <template>
   <a-list
     item-layout="horizontal"
-    :grid="{ gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 6, xxl: 3 }"
+    :grid="{ gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 4, xxl: 3 }"
     :data-source="props.pictureList"
   >
     <template #renderItem="{ item }">
